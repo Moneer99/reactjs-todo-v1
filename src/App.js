@@ -1,11 +1,14 @@
+import React, { Component } from "react";
 import "./App.css";
 
-function App() {
-  return (
-    <>
-      <h1>welcome to first change</h1>
-    </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <h1>welcome to first change</h1>
+      </>
+    );
+  }
 }
 
 export default App;
